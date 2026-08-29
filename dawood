@@ -1,15 +1,25 @@
 void main () {
-print ("Question NO:4");
-print ("Leap year");
-int Leapyear = 1999;
-print(Leapyear);
-int divisiable = 1999;
-print (divisiable);
-if( divisiable %4 ==0){
-    print("Leap year");}
-else if(divisiable %400 ==0)
-    print ("Century year");
-else {
-print ("Nothing");
+print ("Question NO:5");
+print ("Temperature");
+num Temperature = (42);
+print (Temperature);
+if(Temperature<0)
+    print("Freezing weather");
+else if(Temperature <= 10){
+    print("Very Cold weather");
+}
+else if(Temperature <= 20){
+    print ("Cold weather");
+}
+else if(Temperature <= 30){
+    print ("Normal in Temp");
+} 
+else if(Temperature <= 40){
+    print ("Its Hot");
+}
+else if(Temperature > 40 )
+    print("Its Very Hot");
+else{
+    print("End");
 }
 }
