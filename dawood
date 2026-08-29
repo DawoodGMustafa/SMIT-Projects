@@ -1,25 +1,12 @@
-void main () {
-print ("Question NO:5");
-print ("Temperature");
-num Temperature = (42);
-print (Temperature);
-if(Temperature<0)
-    print("Freezing weather");
-else if(Temperature <= 10){
-    print("Very Cold weather");
-}
-else if(Temperature <= 20){
-    print ("Cold weather");
-}
-else if(Temperature <= 30){
-    print ("Normal in Temp");
-} 
-else if(Temperature <= 40){
-    print ("Its Hot");
-}
-else if(Temperature > 40 )
-    print("Its Very Hot");
-else{
-    print("End");
+void main (){
+ print ("Qustion NO:6");
+ print ("Vowel or Consonant");
+var Aalphabets =("b,c,d,f,g,h,j,k");
+print(Aalphabets);
+if(Aalphabets =="a" ||Aalphabets ==  "e" ||Aalphabets ==   "i" || Aalphabets == "o" || Aalphabets == "u" )
+    print("Vowel");
+else if(Aalphabets !=  "a" || Aalphabets != "e" || Aalphabets != "i" || Aalphabets != "o" || Aalphabets !="u" )
+    print("Consonant");
+else{print("nothing");
 }
 }
