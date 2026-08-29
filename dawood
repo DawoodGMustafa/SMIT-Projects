@@ -1,13 +1,13 @@
 void main () {
-print ("Question NO:1");
-print ("Square values or rectangle values");
-int Length = 32;
-int Breath = 54;
-if(Length == Breath){
-    print("Square Value");}
-else if(Length != Breath)
-    print ("Rectangle value");
+print ("Question NO:2");
+print ("Oldest or youngest");
+int Age1 = 17;
+int Age2 = 86;
+if(Age1 <= Age2){
+    print("youngest");}
+else if(Age2 >= Age1)
+    print ("Oldest");
 else {
-    print ("Nothing");
+print ("Same Age");
 }
 }
