@@ -1,13 +1,15 @@
 void main () {
-print ("Question NO:2");
-print ("Oldest or youngest");
-int Age1 = 17;
-int Age2 = 86;
-if(Age1 <= Age2){
-    print("youngest");}
-else if(Age2 >= Age1)
-    print ("Oldest");
+print ("Question NO:3");
+print ("Attendence");
+int Numbersofclassesheld = 16;
+int Numbersofclassesattended = 10;
+double Percentage =(10/16*100);
+print(Percentage);
+if(Percentage >= 75 ){
+    print("Appare in exam");}
+else if(Percentage < 75)
+    print ("Not appare in exam");
 else {
-print ("Same Age");
+    print ("Absent");
 }
 }
